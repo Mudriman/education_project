@@ -1,0 +1,435 @@
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inika-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inika-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inika-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inika-v21-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+html{
+  box-sizing: border-box;
+  background-color: #EDF2EC;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Inika';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #636060;
+}
+/* Header styles start */ 
+.wrapper{
+  max-width: 1222px;
+  margin: 0 auto;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header_acive{
+  background: #EDF2EC;
+}
+
+.header__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.header__list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header__item{
+  margin-right: 46px;
+}
+
+.header__item:last-child{
+  margin-right: 0;
+}
+
+.header__link{
+  font-family: 'Inika';
+  color: #010201;
+  font-size: 16px;
+  width: 67px;
+  height: 50px;
+  text-decoration: none;
+}
+
+.header__link:hover, .header__link:focus {
+  opacity: .75;
+}
+
+/* Header styles end */
+
+/* Intro styles start */
+.intro{
+  margin-bottom: 62.64px;
+}
+.intro__wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 224.2px;
+  align-items: center;
+  padding-top: 232px;
+}
+
+
+.intro__title{
+  font-size: 45px;
+  font-weight: 700;
+  width: 549px;
+  height: 101px;
+  margin-bottom: 42px;
+  font-family: 'Inter';
+}
+
+.intro__subtitle{
+  color:rgba(99, 96, 96, 1);
+  font-size: 20px;
+  width: 525.44px;
+  height: 105px;
+  padding-bottom: 48px;
+  font-family: 'Inter';
+}
+
+.info__button{
+  border:3px solid rgba(224, 103, 51, 1);
+  border-radius: 8px;
+  background-color: transparent;
+  text-align: center;
+  padding: 14px 27px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.intro__green-text{
+  color: #499A18;
+}
+
+.info__button:hover, .info__button:focus{
+  opacity: .75;
+}
+/* Intro styles end */
+
+/* Second__section styles start */
+
+.second__section{
+  padding-bottom: 94px;
+  padding-top: 93px;
+  background-color: white;
+  font-style: 'Inter';
+}
+
+.second__section_wrapper{
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 153px;
+  align-items: center;
+}
+
+
+.second__section__title{
+  font-size: 40px;
+  font-weight: 400;
+  font-style: 'Inika';
+  width: 463px;
+  height: 102px;
+  margin-bottom: 40px;
+}
+
+.second__section__subtitle{
+  color:rgba(99, 96, 96, 1);
+  font-size: 20px;
+  width: 605px;
+  height: 208px;
+}
+
+.second__section__green-text{
+  color: #499A18;
+}
+
+.second__section__orange-text{
+  color: #E06733;
+}
+/* Second__section end */
+
+/* Project__section start */
+
+
+.project__header{
+  margin-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project__title{
+  margin-top: 40px;
+  margin-right: 142px;
+  font-size: 40px;
+  font-weight: 400;
+  color: rgba(73, 154, 24, 1);
+  width: 306px;
+  height: 94px;
+}
+
+.project__button{
+  border:1px solid rgba(224, 103, 51, 1);
+  border-radius: 8px;
+  background-color: transparent;
+  text-align: center;
+  padding: 12px 40px;
+  font-style: 'Inika';
+  font-size: 16px;
+  color: rgba(224, 103, 51, 1);
+  margin-right: 38px;
+}
+
+.top__cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 55px 117px;
+  padding-bottom: 121px;
+}
+
+
+.top__card-pic{
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.top__rectangle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:330px;
+  height:100px;
+  background: transparent;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border:1px solid #E3E1D5;
+}
+
+.top__card-title{
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 700;
+  color: rgba(224, 103, 51, 1);
+  padding-bottom: 10px;
+}
+
+.top__card-subtitle{
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: rgba(113, 113, 113, 1);
+}
+
+
+
+/* Project__section end */
+
+
+/* Prices__section start */
+.prices__section{
+  background-color: white;
+}
+
+.prices__section__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 115px;
+}
+
+.prices__section__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.contact__button{
+  border:2px solid rgba(224, 103, 51, 1);
+  border-radius: 8px;
+  background-color: transparent;
+  text-align: center;
+  padding: 12px 31px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(224, 103, 51, 1);
+}
+
+
+.help__title{
+  text-align: right;
+  font-size: 40px;
+  font-family: "Inter";
+  font-weight: 700;
+  color: black;
+  width: 452px;
+  height: 103px;
+  margin-bottom: 38px;
+}
+
+.prices__section__green-text{
+  color: #499A18;
+}
+
+.price__section-pic{
+  padding-top: 39px;
+}
+
+
+.prices__title{
+  font-size: 40px;
+  font-family: "Inter";
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  width: 250px;
+  height: 49px;
+  margin-bottom: 60px;
+}
+
+
+.prices__summary{
+  position: relative;
+  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  padding:16px 110px 16px 40px;
+  background-color: #EDF2EC;
+  border-radius: 30px;
+}
+
+.prices__pic {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.prices__pic-link {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+}
+
+.prices__pic-pic {
+  width: 16px;
+  height: 16px;
+}
+
+.prices__rectangle{
+  border: 1px solid #E3E1D5;
+  text-align: center;
+  border-radius: 20px;
+  width: 332px;
+  padding: 34px 41px;
+}
+
+.prices__pic:last-child{
+  margin-bottom: 0;
+}
+/* Prices__section end */
+
+/* Contact__section start */
+
+.contact__section__wrapper{
+  display: flex;
+  flex-direction: flex;
+  align-items: flex-start;
+}
+
+.contact__section-pic {
+  margin-top: 53px;
+  width: 400;
+}
+
+.contact__section-title {
+  margin-top: 60px;
+  font-size: 40px;
+  font-family: "Inika";
+  font-weight: 700;
+  color: rgba(73, 154, 24, 1);
+  height: 51px;
+  padding-left: 113px;
+}
+
+
+
+.contact__section__city {
+  margin-top: 148px;
+  padding-left: 64px;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.contact__section__summary{
+  position: relative;
+  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: rgba(113, 113, 113, 1);;
+  padding:13px 390px 13px 20px;
+  background-color: #D6E7D2;
+}
+
+.contact__section__pic-link {
+  position: absolute;
+  top: 50%;
+  right: 35px;
+  transform: translateY(-50%);
+}
+
+.contact__section__pic-pic {
+  width: 16px;
+  height: 16px;
+}
+
+/* Contact__section end */
