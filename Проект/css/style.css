@@ -100,7 +100,6 @@ body{
 }
 
 /* Header styles end */
-
 /* Intro styles start */
 .intro{
   margin-bottom: 62.64px;
@@ -184,6 +183,9 @@ body{
   font-size: 20px;
   width: 605px;
   height: 208px;
+  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 400;
 }
 
 .second__section__green-text{
@@ -433,3 +435,77 @@ body{
 }
 
 /* Contact__section end */
+
+/* Footer__section start */
+.footer{
+  background-color: white;
+  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  padding: 40px 0;
+}
+.footer__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-left {
+  display: flex;
+  align-items: center;
+  padding-right: 337px;
+}
+
+.footer__logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.year {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.github {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+.footer-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-right: 317px;
+}
+
+.rolling_sc {
+  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-links li {
+  margin-right: 20px;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+}
+/* Footer__section end */
