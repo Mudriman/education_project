@@ -33,6 +33,7 @@
 html{
   box-sizing: border-box;
   background-color: #EDF2EC;
+  scroll-behavior: smooth;
 }
 
 *, *::before, *::after{
@@ -57,10 +58,12 @@ body{
   top: 0;
   left: 0;
   width: 100%;
+  box-shadow: 0px 2px 5px grey;
 }
 
-.header_acive{
+.header_active{
   background: #EDF2EC;
+  z-index: 999;
 }
 
 .header__wrapper{
@@ -99,6 +102,13 @@ body{
   opacity: .75;
 }
 
+.header__list li:first-child .header__link {
+  font-size: 16px;
+  font-family: "Inika";
+  font-weight: 700;
+  color: #E06733;
+}
+
 /* Header styles end */
 /* Intro styles start */
 .intro{
@@ -117,7 +127,6 @@ body{
   font-size: 45px;
   font-weight: 700;
   width: 549px;
-  height: 101px;
   margin-bottom: 42px;
   font-family: 'Inter';
 }
@@ -126,9 +135,9 @@ body{
   color:rgba(99, 96, 96, 1);
   font-size: 20px;
   width: 525.44px;
-  height: 105px;
   padding-bottom: 48px;
   font-family: 'Inter';
+  line-height: 35px;
 }
 
 .info__button{
@@ -161,7 +170,6 @@ body{
 }
 
 .second__section_wrapper{
-  
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0 153px;
@@ -182,10 +190,10 @@ body{
   color:rgba(99, 96, 96, 1);
   font-size: 20px;
   width: 605px;
-  height: 208px;
   font-size: 20px;
   font-family: "Inter";
   font-weight: 400;
+  line-height: 30px;
 }
 
 .second__section__green-text{
@@ -214,7 +222,6 @@ body{
   font-weight: 400;
   color: rgba(73, 154, 24, 1);
   width: 306px;
-  height: 94px;
 }
 
 .project__button{
@@ -315,7 +322,6 @@ body{
   font-weight: 700;
   color: black;
   width: 452px;
-  height: 103px;
   margin-bottom: 38px;
 }
 
@@ -334,7 +340,6 @@ body{
   font-weight: 700;
   color: rgba(0, 0, 0, 1);
   width: 250px;
-  height: 49px;
   margin-bottom: 60px;
 }
 
@@ -399,7 +404,6 @@ body{
   font-family: "Inika";
   font-weight: 700;
   color: rgba(73, 154, 24, 1);
-  height: 51px;
   padding-left: 113px;
 }
 
@@ -407,9 +411,10 @@ body{
 
 .contact__section__city {
   margin-top: 148px;
-  padding-left: 64px;
+  margin-left: 64px;
   position: relative;
   margin-bottom: 32px;
+  box-shadow: 0px 2px 5px grey;
 }
 
 .contact__section__summary{
