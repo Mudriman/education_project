@@ -9,7 +9,6 @@
 </head>
 <body>
     <header class="header">
-        <link rel="icon" type="image/png" href="./img/svg/favicon.svg">
         <div class="wrapper">
             <div class="header__wrapper">
                 <div class="header__logo">
@@ -18,24 +17,33 @@
                     </a>
                 </div>
     
-                <div class="nav header__nav">
+                <nav class="nav header__nav">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a href="#intro" class="header__link">Home</a>
+                            <a href="#intro" class="header__link js-scroll">Home</a>
                         </li>
                         <li class="header__item">
-                            <a href="#second__section" class="header__link">About us</a>
+                            <a href="#second__section" class="header__link js-scroll">About us</a>
                         </li>
                         <li class="header__item">
-                            <a href="#project__section" class="header__link">Service</a>
+                            <a href="#project__section" class="header__link js-scroll">Service</a>
                         </li>
                         <li class="header__item">
-                            <a href="#prices__section" class="header__link">Price</a>
+                            <a href="#prices__section" class="header__link js-scroll">Price</a>
                         </li>
                         <li class="header__item">
-                            <a href="#contact__section" class="header__link">Contacts</a>
+                            <a href="#contact__section" class="header__link js-scroll">Contacts</a>
                         </li>
                     </ul>
+                    <div class="header__nav-close">
+                        <span class="header__nav-close-line"></span>
+                        <span class="header__nav-close-line"></span>
+                    </div>
+                </nav>
+                <div class="header__burger burger">
+                    <span class="burger__line burger__line_first"></span>
+                    <span class="burger__line burger__line_second"></span>
+                    <span class="burger__line burger__line_third"></span>
                 </div>
             </div>
         </div>
@@ -192,7 +200,7 @@
 
         <section class="prices__section" id="prices__section">
             <div class="wrapper">
-                <div class="prices__section__wrapper">
+                <div class="prices__section__wrapper"> 
                     <div class="prices__section__left">
                         <h2 class="prices__title">
                             Prices
@@ -226,8 +234,8 @@
                             Contact us
                         </button>
                         <img src="./img/png/price.png" alt="price__leafs" class="price__section-pic">
-                    </div>
-                </div>
+                    </div>  
+                </div>  
             </div>
         </section> 
         <section class="contact__section" id="contact__section">
